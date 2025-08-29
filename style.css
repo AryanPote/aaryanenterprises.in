@@ -154,15 +154,16 @@ html {
     gap:5px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
     .logo {
   flex: 0 0 auto; /* Don't let it shrink or grow */
   width: 250px;
-  height: 45px;
+  height: 35px;
   background-image: url("aaryan_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position:center;
+      margin-bottom: 10px;
 }
 
     .top {
@@ -252,14 +253,14 @@ html {
   font-size: 20px;
 }
 .footer{
-    height: 40px;
+    height: 30px;
     font-family: 'Courier New', Courier, monospace;
     backdrop-filter: brightness(0.1);
     display: flex;
     color: aliceblue;
     justify-content: center;
     align-items: center;
-    gap:5px;
-    font-size: 8px;
+    gap:2px;
+    font-size: 6px;
 }
 }
