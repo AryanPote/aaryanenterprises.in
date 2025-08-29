@@ -60,11 +60,9 @@ margin:0px;
 
 .abtUs{
     background-image: url("pexels-pattvielma-1474993.jpg");
-    height:600px;
+    height:630px;
     background-size: cover;
-    margin: 0px;
-  
-    
+    margin: 0px;    
 }
 .hero{
     font-size: 36px;
@@ -97,7 +95,7 @@ margin:0px;
     align-items: center;
     flex-direction: column;
     color: aliceblue;
-    height:520px;
+    height:550px;
     padding: 40px;
     font-family: "Oswald", sans-serif;
 }
@@ -111,10 +109,15 @@ margin:0px;
 
 .section-img {
   width: 100%;
+  max-width: 1300px; /* ✅ Controls max width */
+  height: auto;      /* ✅ Maintain aspect ratio */
   object-fit: contain;
   border-radius: 8px;
-  font-family:  "Oswald", sans-serif;
+  display: block;
+  margin: 0 auto;     /* ✅ Center the image */
+  font-family: "Oswald", sans-serif;
 }
+
 .MF{
     margin: 20px;
 }
@@ -127,7 +130,7 @@ margin:0px;
 
 .CR {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* --- Clients --- */
