@@ -1,0 +1,144 @@
+
+*{
+margin:0px;
+}
+.bg{
+    background-color:#caf0f8; 
+}
+.top{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo{
+    height:65px;
+    width:350px;
+    background-image: url("aaryan_logo.png");
+    background-size: cover;
+}
+.navbar{
+    height:50px;
+    backdrop-filter: brightness(0.4);
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.anchor{
+    font-size: 20px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+   border-radius: 10%;
+}
+.anchor:hover{
+    background-color:rgb(28 28 28) ;
+}
+.abtUs{
+    background-image: url("pexels-pattvielma-1474993.jpg");
+    height:600px;
+    background-size: cover;
+    margin: 10px;
+  
+    
+}
+.hero{
+    font-size: 55px;
+    color:aliceblue;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+}
+.pa{
+    font-size: 30px;
+}
+.cu{
+    height: 70px;
+    width: 200px;
+    font-size: x-large;
+    background-color: #5f7eba;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;   
+}
+.cu:hover{
+    background-color: #4c6caa;
+}
+.content{
+    backdrop-filter: brightness(0.5);
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    height:520px;
+    padding: 40px;
+    font-family: "Oswald", sans-serif;
+}
+
+/* Manufacturing Facility */
+
+
+.MF{
+    height: 1200px;
+    font-family: "Oswald", sans-serif;   
+}
+.MF1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.MFbg{
+    height:550px;
+    background-image: url("workshop.jpg");
+    background-size: cover;
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.CR{
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
+}
+.crbg{
+    background-image: url("cr.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 96%;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.footer{
+    height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    backdrop-filter: brightness(0.1);
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
