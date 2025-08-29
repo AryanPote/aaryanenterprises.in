@@ -19,7 +19,7 @@ margin:0px;
     background-size: cover;
 }
 .navbar{
-    height:50px;
+    height:35px;
     backdrop-filter: brightness(0.4);
    
     display: flex;
