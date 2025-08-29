@@ -109,7 +109,7 @@ margin:0px;
 
 .section-img {
   width: 100%;
-  max-width: 1300px; /* ✅ Controls max width */
+  max-width: 1100px; /* ✅ Controls max width */
   height: auto;      /* ✅ Maintain aspect ratio */
   object-fit: contain;
   display: block;
