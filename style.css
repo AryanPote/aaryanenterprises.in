@@ -91,7 +91,7 @@ margin:0px;
 
 
 .MF{
-    height: 1150px;
+    height: 900px;
     font-family: "Oswald", sans-serif;   
 }
 .MF1{
@@ -100,7 +100,7 @@ margin:0px;
     align-items: center;
 }
 .MFbg{
-    height:550px;
+    height:400px;
     background-image: url("workshop.jpg");
     background-size: cover;
     margin: 30px;
@@ -114,7 +114,7 @@ html {
 
 
 .CR{
-    height: 560px;
+    height: 460px;
     display: flex;
     justify-content: center;
     margin-left: 10px;
@@ -126,7 +126,7 @@ html {
 .crbg{
     background-image: url("cr.jpg");
     background-size: cover;
-    height: 500px; 
+    height: 400px; 
     width: 96%;
     margin: 10px;
     margin-left: 0px;
