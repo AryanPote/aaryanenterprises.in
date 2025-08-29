@@ -65,18 +65,18 @@ margin:0px;
     margin: 0px;    
 }
 .hero{
-    font-size: 36px;
+    font-size: 40px;
     color:aliceblue;
     font-family: "Oswald", sans-serif;
 }
 .pa{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 .cu{
-    height: 50px;
-    width: 150px;
-    font-size: large;
+    height: 60px;
+    width: 300px;
+    font-size: x-large;
     background-color: #5f7eba;
     text-decoration: none;
     color: aliceblue;
